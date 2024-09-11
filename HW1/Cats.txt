@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> My Cats </title>
+	</head>
+		<body>
+		<header>
+				<h1>I Really Love My Cats!</header>
+			</header>
+				<section>
+					<h1> My Cats</h1>
+						<p>Do you love cats? I do!
+						<p> I have two cats.
+						<p> Their names are Deacon and Nads. </p>
+				</section>
+				
+				<section>
+					<h2> Deacon &hearts; </h2>
+						<p> Deacon was my first cat.
+						<p> He is orange and big.
+						<p> He has many names, such as
+							<ul>
+								<li>Eshk-kitten</li>
+								<li>Schkenstein</li>
+								<li>Pish Pish</li>
+							</ul>	
+				</section>
+				<br>
+				<section>
+					<h2> Nads &hearts; </h2>
+						<p> Nads is a bengal cat.
+						<p> His full name is Nads Nikelson, like Mads Mikelson.
+						<p> We mostly call him Naddison or Naddius
+						<p> He is long and fast.
+				</section>
+				<br>
+				<section>
+					<h2> Comparing Cats: <h3>
+					
+					<table>
+						<tr>
+							<th>Name</th>
+							<th>Age</th>
+							<th>Color</th>
+							<th>Size</th>
+							<th>Personality</th>
+						</tr>
+						<tr>
+							<td>Deacon</td>
+							<td>Maybe 4?</td>
+							<td>Orange</td>
+							<td>Large</td>
+							<td>Sleepy</td>
+						</tr>
+						<tr>
+							<td>Nads</td>
+							<td>1</td>
+							<td>Grey/Black</td>
+							<td>Slender</td>
+							<td>Insane</td>
+		
+					</table>
