@@ -1,0 +1,91 @@
+body { background-color: #FFF1DE;
+		font-family: courier new
+}
+.center { text-align: center;
+}
+
+.bold { font-weight: bold;
+}
+
+header{ font-size: 30pt;
+}
+
+h4 { text-align: center;
+color: #615a51;
+}
+
+
+.DeaconSection { background-color: #f2c08a;
+	font-family: Comic Sans MS;
+	text-align: center;
+}
+
+.names { display: flex;
+justify-content: center;
+}
+
+.capitalize { text-transform: uppercase;
+}
+
+.orange { color: #c95700;
+		font-weight: bold;
+}
+
+p { color: #615a51;
+}
+
+h2 { color: #2b312a;
+}
+
+h1 {color: #64755a;
+}
+
+table, th, td {text-align: center;
+	border: 1px solid;
+}
+
+#specialcolor { color: #FFFFFF;
+}
+
+
+	
+	
+	
+
+.red { background-color: #f2938a;
+font-weight: bold;
+}
+
+.yellow { background-color: #faf1aa;
+display: flex;
+justify-content: center;
+
+}
+
+.green { background-color: #cef5cb;
+	font-family: times;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+}
+
+.blue { background-color: #cbe3f5;
+display: flex;
+justify-content: center;
+}
+
+.purple { background-color: #cbcef5;
+text-align: center;
+}
+
+table {
+margin-left: auto;
+margin-right: auto;
+}
+
+.pink { background-color: #ecbdd5;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
