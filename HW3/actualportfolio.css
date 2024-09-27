@@ -18,6 +18,25 @@ html {
 	letter-spacing: 1.5px;
 }
 
+#name:link {
+	font-size: 1em;
+	font-style: bold;
+	letter-spacing: 1.5px;
+	text-decoration: none;
+	color: #183a37;
+	font-style: normal;
+	
+}
+
+#name:visited {
+	font-size: 1em;
+	font-style: bold;
+	letter-spacing: 1.5px;
+	text-decoration: none;
+	color: #183a37;
+	font-style: normal;
+}
+
 #namesubhead {
 		font-size: .5em;
 		margin: 1px;
