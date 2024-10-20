@@ -1,0 +1,681 @@
+/* Colors: */
+/* #DDE392 mindaro/
+/* #183a37 - slate grey */
+/* #F4E3C5 - light wheat */
+/* #FCF7EE - lighter wheat*/
+/* #FEFCF9 - even lighter wheat*/
+/* #AFBE8F - sage #7D8570 - reseda greeen #504B3A drab dark brown*/
+
+
+html {
+	background-color: #FEFCF9;
+	font-family: Playfair Display;
+	font-size: 30pt;
+}
+
+/*Desktop*/
+@media (min-width: 1341px) {
+
+
+#name {
+	font-size: 1em;
+	font-style: bold;
+	letter-spacing: 1.5px;
+	
+}
+
+p { 
+	font-size: .8em;
+}
+#name:link {
+	font-size: 1em;
+	font-style: bold;
+	letter-spacing: 1.5px;
+	text-decoration: none;
+	color: #183a37;
+	font-style: normal;
+	
+}
+
+#name:visited {
+	font-size: 1em;
+	font-style: bold;
+	letter-spacing: 1.5px;
+	text-decoration: none;
+	color: #183a37;
+	font-style: normal;
+}
+
+.namesubhead {
+		font-size: .5em;
+		margin: 1px;
+		letter-spacing: 1.5px;
+		font-variant: small-caps;
+	
+}
+
+#topofpage {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1%;
+	margin-left: 2em;
+	background-color: #FEFCF9
+}
+
+.navlink {
+	font-variant: small-caps;
+	text-decoration: none;
+	font-size: 0.7em;
+	margin-left: 0.3em;
+	font-style: bold;
+	color: #183a37;
+	background-color #FCF7EE;
+	
+}
+
+.navlink:hover {
+	background-color: #DDB192;
+	border-radius: 10% 30% 50% 70%;
+	padding-top: 10px;
+	padding-bottom: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+nav {
+	margin: 1em;
+	margin-right: 2em;
+	font-style: normal;
+	text-decoration: none;
+}
+
+#namesubhead_top {
+	display: none;
+}
+
+
+
+#abtmeandpic {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 1%;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: #F4E35C;
+	padding: 0.5em;
+	background-color: #DDE392;
+	border-style: solid;
+	border-color: #DDE392;
+	max-width:80%;
+	
+	
+	
+}
+
+#mainaboutme { 
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 2.5%;
+	max-width: 40%;
+	min-width: 30%;
+	
+	
+	
+	
+	
+	
+}
+
+#leftabtme {
+	margin-left: auto;
+	margin-right: 1em;
+	
+	
+}
+
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #04151f
+	
+}
+
+
+#p-mainaboutme {
+	font-size: .75em;
+	margin-top: 0.25em;
+	color: #04151f;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+border-radius: 50%;
+	
+}
+
+#rightabtme {
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+.linkbuttons {
+	display: flex;
+	justify-content: front-start;
+}
+
+.button {
+	
+	text-decoration: none;
+	font-size: 0.7em;
+	font-weight: bolder;
+	color: #183a37;
+	background-color: #DDB192;
+	border-style: double;
+	border-width: 10px;
+	border-color: #DDB192;
+	border-radius: 10% 30% 50% 70%;
+	padding-top: 10px;
+	padding-bottom: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+	
+
+	/* about me section*/
+	
+#aboutmepage {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 4em;
+	margin-left: 17em;
+	margin-right: 17em;
+}
+
+h3 {
+	display: block;
+	font-variant: small-caps;
+	margin-top: .1em;
+	margin-bottom: .5em;
+	text-align: center;
+	
+	
+}
+
+#mesailing {
+	  object-fit: contain;
+		height: 100%;
+		width: 100%;
+		padding: 0em;
+		margin: auto;
+		overflow: hidden;
+}
+
+figcaption {
+	font-size: 0.7em;
+	font-weight: normal;
+	font-style: italic;
+	color: #7D8570;
+}
+
+.pgraph {
+	display: block;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+}
+
+
+/*TABLET*/			
+@media (max-width: 1340px) {
+
+body { font-size: 30px;
+}
+
+img {
+	border-radius: 50%;
+	padding: .5em;
+	width:300px;
+	height: auto;
+}
+
+.center {
+	margin-bottom: 0px;
+}
+
+#topofpage {
+	display:flex;
+	flex-direction: column;
+	margin: 1%;
+	justify-content: center;
+}
+
+#upperleft {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 3rem;
+}
+
+#namesubhead_upperleft {
+	display: none;
+}
+
+#namesubhead_top {
+	font-size: 0.5em;
+}
+
+
+#name {
+	font-size: 1em;
+	font-style: bold;
+	letter-spacing: 1.5px;
+	
+}
+#name:link {
+	font-size: 1em;
+	font-style: bold;
+	letter-spacing: 1.5px;
+	text-decoration: none;
+	color: #183a37;
+	font-style: normal;
+	
+}
+
+#name:visited {
+	font-size: 1em;
+	font-style: bold;
+	letter-spacing: 1.5px;
+	text-decoration: none;
+	color: #183a37;
+	font-style: normal;
+}
+
+	
+
+
+#namesubhead {
+	font-size: 1em;
+	letter-spacing: .1em;
+	font-variant: small-caps;
+	text-align: center;
+	margin-bottom: .05%;
+	
+}
+
+
+nav { 
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #DDB192;
+	padding: 2%;
+	border-radius: 5px;
+	font-style: normal;
+	text-decoration: none;
+	position: sticky;
+										
+	
+}
+.navlink {
+font-variant: small-caps;
+text-decoration: none;
+font-size: 0.7em;
+margin-left: 2.5%;
+margin-right: 2.5%;
+font-style: bold;
+color: #183a37;
+background-color #FCF7EE;
+										
+}
+
+.navlink:hover {
+background-color: #DDB192;
+
+										
+}
+
+#abtmeandpic {
+	display: flex;
+	margin: 1%;
+	flex-direction: column-reverse;
+	background-color: #DDE392;
+	border-style: solid;
+	border-color: #DDE392;
+	border-radius: 10px;
+}
+
+#mainaboutme {
+	margin: .5%;
+	margin-top: 0em;
+	text-align: center;
+	
+}
+
+#imlylah {
+	text-align: center;
+	margin-bottom: 0%;
+	margin-top: 0%;
+	
+}
+
+#p-mainaboutme {
+	text-align: center;
+	margin-right: auto;
+	maring-left: auto;
+}
+
+
+
+.center {
+text-align: center;
+border-radius: 50%;
+
+}
+
+	
+#headshot {
+	display: flex;
+	margin: auto;
+	padding: 1%;
+	max-width:90%;
+	position: relative;
+	order: 1;
+	
+}
+
+p {
+	margin: 2%;
+}
+
+.linkbuttons {
+	display: flex;
+	justify-content: center;
+}
+
+.button {
+										
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bolder;
+	color: #183a37;
+	background-color: #DDB192;
+	border-style: double;
+	border-width: 10px;
+	border-color: #DDB192;
+	border-radius: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1.5%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+										
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MOBILE*/
+@media (max-width: 600px) {
+									html, body {
+										overflow-x: hidden;
+									}
+									body {
+										position: relative;
+									}
+									* {
+										max-width: auto;
+									}
+								
+
+									#topofpage {
+										font-size: 1em;
+										display: flex;
+										justify-content: center;
+										flex-wrap: column;
+										margin-top: .5em%;
+										background-color: #FEFCF9
+
+										
+									}
+									
+									#name {
+										text-align: center;
+										font-size: .5em;
+									}
+									.namesubhead {
+									display: none;
+								}
+
+									
+									.navlink {
+										background-color: #DDB192;
+										text-decoration: none;
+										font-style: bold;
+										color: #183a37;
+										margin-left: 0.1em;
+										margin-right: 0.1em;
+										margin-top: 0.2em;
+										margin-bottom: 0.2em;
+										padding: 3px;
+										
+										
+									
+										
+									}
+									
+									.center {
+										padding: .25em;
+										padding-bottom: 0rem;
+									
+									}
+									
+									img {
+										border-radius: 50%;
+										padding: 0px;
+									}
+									
+									
+									.navlink:hover {
+										background-color: #ce9064;
+										
+										
+									}
+
+									nav {
+										text-align: center;
+										display: flex;
+										font-size: 1em;
+										flex-direction: column;
+										font-style: normal;
+										text-decoration: none;
+										background-color: #FEFCF9;
+										padding: 0px;
+										
+
+										
+									}
+									
+									#p-mainaboutme {
+										text-align: center;
+										margin: 0.01em;
+									}
+
+									#abtmeandpic {
+										display: flex;
+										justify-content: center;
+										color: #F4E35C;
+										margin-left: 0.1em;
+										margin-right: 0.1em;
+										margin-bottom: 1em;
+										margin-top: 0.1em;
+										background-color: #DDE392;
+										border-style: solid;
+										border-color: #DDE392;
+										max-width: 100%;
+										
+										
+										
+										
+									}
+									
+									#imlylah {
+										font-size: 1.5em;
+									}
+
+									#mainaboutme { 
+										display: flex;
+										font-size: 1em;
+										flex-direction: column;
+										font-size: 0.75em;
+										text-align: center;
+										margin-left: 0.75em;
+										margin-right: 0.75em;
+										
+										
+										
+									}
+
+									h2 {
+										margin-top: 0;
+										margin-bottom: 0;
+										color: #04151f
+										
+									}
+
+
+									#p-mainaboutme {
+										margin-top: 0.25em;
+										color: #04151f;
+									}
+
+									#headshot {
+										display: none;
+										align-content: center;
+										
+										
+									}
+
+									.linkbuttons {
+										display: flex;
+										justify-content: front-start;
+										padding: 0.5rem;
+									}
+
+									.button {
+										
+										text-decoration: none;
+										font-size: 0.7em;
+										font-weight: bolder;
+										color: #183a37;
+										background-color: #DDB192;
+										border-style: double;
+										border-width: 10px;
+										border-color: #DDB192;
+										
+									}
+									
+									footer {
+										font-size: 1em;
+									}
+										
+
+										/* about me section*/
+										
+									#aboutmepage {
+										display: flex;
+										flex-direction: column;
+										justify-content: space-between;
+										align-items: center;
+										margin-top: 4em;
+										margin-left: 17em;
+										margin-right: 17em;
+									}
+
+									h3 {
+										display: block;
+										font-variant: small-caps;
+										margin-top: .1em;
+										margin-bottom: .5em;
+										text-align: center;
+										
+										
+									}
+
+									#mesailing {
+										  object-fit: contain;
+											height: 100%;
+											width: 100%;
+											padding: 0em;
+											margin: auto;
+											overflow: hidden;
+									}
+
+									figcaption {
+										font-size: 0.7em;
+										font-weight: normal;
+										font-style: italic;
+										color: #7D8570;
+									}
+
+									.pgraph {
+										display: block;
+										padding-top: 0.5em;
+										padding-bottom: 0.5em;
+										margin-top: 0;
+										margin-bottom: 0;
+									}
+										
+									#upperleft {
+										display: block;
+										margin-left: 0px;
+									}
+											
+}
+			
+			
+			
+			
+			
+
+
