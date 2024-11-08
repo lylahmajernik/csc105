@@ -1,0 +1,48 @@
+body, h1, div {
+	width: 50%;
+	margin: auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.container { 
+	margin: auto;
+}
+
+li {
+	display: flex;
+	justify-content: space-between;
+	overflow: visible;
+	border-style: dashed;
+	border-width: 1px;
+}
+
+#toDoContainer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+	
+}
+
+h3 {
+	font-size: .8em;
+	width: 100%
+}
+
+h2 {
+	font-size: 1em;
+	width: 100%;
+}
+
+button {
+	text-decoration: none;
+}
+
+.completed {
+	background-color: #D3D3D3;
+	color: white;
+	text-decoration: line-through;
+}
