@@ -14,10 +14,13 @@ body, h1, div {
 
 li {
 	display: flex;
-	justify-content: space-between;
-	overflow: visible;
-	border-style: dashed;
-	border-width: 1px;
+   	justify-content: space-between;
+    	overflow: visible;
+    	border-style: dashed;
+    	border-width: 1px;
+    	max-width: 100%;
+    	flex-wrap: wrap;
+    	word-break: break-all;
 }
 
 #toDoContainer {
