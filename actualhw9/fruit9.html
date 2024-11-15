@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Fruit </title>
+		<link rel="stylesheet" href="fruit.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- <script src="fruit.js" defer></script> -->
+		<script src="form.js" defer></script>
+	</head>
+	
+	<body>
+	<h1>Is your favorite fruit in the list?</h1>
+	<section id="searchBar" class="boxaround" >
+	<label for="fruit">Search your fruit:</label>
+	<input type="text" id="fruitInput" name="fruit">
+	<button id="findButton">Find Fruit</button>
+	</section>
+	<section id=listContainer class="boxaround">
+	<ul id="fruitList">
+	<div id="listright">
+		<li>Apple</li>
+		<li>Banana</li>
+		<li>Cherry</li>
+		<li>Grape</li>
+		<li>Orange</li>
+		<li>Mango</li>
+		<li>Strawberry</li>
+		<li>Kiwi</li>
+		<li>Watermelon</li>
+		<li>Papaya</li>
+		</div>
+		
+		<div id="listleft">
+		<li>Blueberry</li>
+		<li>Peach</li>
+		<li>Plum</li>
+		<li>Apricot</li>
+		<li>Dragonfruit</li>
+		<li>Cantaloupe</li>
+		<li>Raspberry</li>
+		<li>Blackberry</li>
+		<li>Fig</li>
+		<li>Rocks</li>
+		</div>
+	</section>
+	<div id=buttonContainer>
+	<button id="reset">Reset</button>
+	</div>
+	
+	
+	<section class="boxaround">
+	<h2>Tell us about your favorite fruit!</h2>
+	<form id=formFlex method="post">
+		<div id="nameline" class="form-section">
+			<label for="name">Your Name (First & Last)</label>
+			<input name="name" id="name" type="text">
+			<p id="nameError" class="errorMessage"></p>
+		</div>
+		<div is="emailline" class="form-section">
+			<label for="email">Email</label>
+			<input name="email" id="email" type="email" >
+			<p id="emailError" class="errorMessage"></p>
+
+		</div>
+		<div id="messageline" class="form-section">
+			<label for="message">Your Message</label>
+			<input name="message" id="message" type="textarea">
+			<p id="messageError" class="errorMessage"></p>
+
+		</div>
+		<div id="submitContainer">
+			<input id="submitMe" type="submit" value="Submit">
+			
+
+		</div>
+
+	</form>
+	</section>
+	
+
+	<footer> Thanks for playing! </footer>
+	</body>
+</html>

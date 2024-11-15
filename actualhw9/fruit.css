@@ -1,0 +1,186 @@
+
+
+
+
+
+body {
+	background-color: #ebf7c4;
+	font-family: "Courier New";
+}
+
+
+h1 {
+	font-size: 50pt;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1em;
+	text-align: center;
+	
+	
+}
+
+p {
+	padding-left: 2em;
+	font-size: 20pt;
+	padding-right: 2em;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+#searchBar {
+	display: flex;
+	justify-content: center;
+}
+
+
+ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	text-align: center;
+}
+
+li {
+	font-size: 15pt;
+}
+
+.found {
+	color: #8428bb;
+	font-size: 40pt;
+	font-weight: bold;
+	
+}
+
+.hidden {
+	display: none;
+}
+
+
+#formFlex{
+	display: flex;
+	flex-direction: column;
+}
+
+.form-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	padding-left: 5%;
+	padding-right: 5%;
+	
+}
+
+.boxaround {
+	border: .05em;
+	border-color: #545453;
+	border-style: solid;
+	width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	background-color: #f7d0c4;
+
+}
+#message {
+
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+#buttonContainer {
+	display: flex;
+	justify-content: center;
+}
+
+#reset, #findButton, #submit {
+	background-color: #f7eac4;
+}
+
+#submitContainer {
+	margin: auto;
+}
+
+footer {
+	font-size: 30pt;
+	text-align: center;
+}
+
+
+@media (max-width: 1300px){
+	
+	.photoalbum {
+		display: flex;
+		flex-direction: column;
+		align-content: space-between;
+	}
+	
+	h1 {
+	font-size: 40pt
+	}
+
+	h2 {
+		font-size: 1em;
+	}
+
+	p {
+		font-size: 30pt;
+	}
+
+
+	.boxaround {
+		max-width: 100%;
+	}
+	.boxaround1 {
+		max-width: 100%;
+	}
+	.boxaround2 {
+		max-width: 100%;
+	}
+
+		
+@media (max-width: 650px) {
+	.photoalbum {
+		display: flex;
+		flex-direction: column;
+		align-content: space-between;
+	}
+	
+	p {
+		font-size: 20pt;
+	}
+	
+	.photo {
+		margin: auto; 
+		text-align: center;
+	}
+		
+	.boxaround {
+		max-width: 95%
+		
+	}
+	
+	.boxaround1 {
+		max-width: 95%;
+		border-left: none;
+		border-right: none;
+		
+		
+	}
+	
+	.boxaround2 {
+		max-width: 95%;
+		border-left: none;
+		border-right: none;
+		
+	}
+	
+	
+	
+	
+	
