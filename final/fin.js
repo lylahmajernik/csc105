@@ -21,4 +21,8 @@ $(document).ready(function() {
 			$("#imlylah").click(function() {
 				$("#profpic").fadeToggle("slow", "linear");
 			});
+
+			$("figcaption").click(function() {
+				$(this).siblings("img").fadeToggle("slow", "linear");
+			});
 });
