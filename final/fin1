@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="actualportfolio.css">
+<link href='https://fonts.googleapis.com/css?family=Playfair_Display' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<title>About Me</title>
+	</head>
+		
+		<section id="topofpage">
+			<div id="upperleft">
+				<header ><a href="actualportfolio.html" id="name"> Lylah Majernik
+				
+				</header>
+		
+				<h1 id="namesubhead"> Informative Header | Something Else | Final Thing </h1>
+			</div>
+			
+			<div id="upperright">
+				<nav>
+					<a href="fin.html" class="navlink">Home</a>
+					<a href="fin1.html" class="navlink">About Me</a>
+					<a href="fin2.html" class="navlink">Cat Care</a>
+					<a href="fin3.html" class="navlink">Pet Profile</a>
+				</nav>
+			</div>
+		</section>
+		
+		<section id="aboutmepage">
+			<div>
+				<h2 id="aboutme">About Me</h2>
+			</div>
+			
+			<div>
+				<h3>My Name is Nads. I am a cat.</h3>
+				<h2>Click on a button to learn more about me.<h2>
+			</div>
+			
+				<div>
+					<button>My "Adoption" Story</button>
+					<p class="abthidden"> 	The quick quick quick brown fox fox fox jumped over the laziest dog.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+					nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+					deserunt mollit anim id est laborum. </p>
+				</div>
+			
+			<div>
+				<figure>
+			
+					<img src="mesailing.jpeg" id="mesailing" width=500 height=500>
+					<figcaption> Me, not a cat, enjoying my hobby, sailing. I have sailed more than zero times.</figcaption>
+				</figure>
+			</div>
+				
+			<div>	
+				
+			</div>
+			
+				<div>
+					<button>Why I like to Harass Toddlers</button>
+					<p class="abthidden">  	The quick quick quick brown fox fox fox jumped over the laziest dog.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+					nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+					deserunt mollit anim id est laborum. </p>
+				</div>
+			<div>
+				<figure>
+			
+					<img src="mesailing.jpeg" id="mesailing" width=500 height=500>
+					<figcaption> Me, not a cat, enjoying my hobby, sailing. I have sailed more than zero times.</figcaption>
+				</figure>
+			</div>
+			
+			
+			<div>
+					<button>My Favorite Places</button>
+					<p class="abthidden">  	The quick quick quick brown fox fox fox jumped over the laziest dog.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+					nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+					deserunt mollit anim id est laborum. </p>
+				</div>
+			<div>
+				<figure>
+			
+					<img src="mesailing.jpeg" id="mesailing" width=500 height=500>
+					<figcaption> Me, not a cat, enjoying my hobby, sailing. I have sailed more than zero times.</figcaption>
+				</figure>
+			</div>
+		</section>
+</html>

@@ -1,0 +1,795 @@
+	/* General CSS*/
+	html {
+		background-color: #FEFCF9;
+		font-family: Playfair Display;
+		font-size: 30pt;
+	}
+
+	#bolder {
+		font-weight: bold;
+		text-decoration: underline;	
+	}
+
+	#profpic {
+		border: solid;
+		border-width: thick;
+		border-color: #F4E3C5;
+		max-width: 700px;
+	}
+
+
+	.listitem {
+		padding: 2.5%;
+	}
+
+	#listcontainer {
+		display: flex;
+		flex-direction: column;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-bottom: 15%;
+	}
+
+	.formcontent2 {
+		margin: 10px;
+		font-size: .5em;
+		letter-spacing: 1.5px;
+		color: grey;
+		padding-left: 20px;
+	}
+
+	footer {
+		background: #e5e3d9;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+	}
+
+	h2 {
+		font-size: 1rem;
+		letter-spacing: 1.5px;
+		font-variant: small-caps;
+		margin: auto;
+	}
+
+	h3 {
+		font-size: .55rem;
+		margin: auto;
+		text-align: center;
+		text-wrap: wrap;
+		
+		
+	}
+
+	h4 { 
+	font-size: .5rem;
+	font-variant: small-caps;
+	text-align: center;
+	margin: auto;
+	padding: .25em;
+	color: #7D8570;
+	}
+
+
+	img {
+		border-style: solid;
+		border-width: medium;
+		border-color: #7D8570;
+	}
+
+	#aboutheader {
+		margin-bottom: 7%;
+	}
+
+	#abtmeandpic {
+		margin-bottom: 25%;
+	}
+
+
+	#fin1content, #aboutheader{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 15%;
+
+	}
+
+	.abtchunk {
+		
+		margin: auto;
+	}
+	.bigtitle {
+		margin: auto;
+		text-align: center;
+		padding-top: 3%;
+	}
+
+	#headercontainer {
+	margin: auto;
+	margin-bottom: 1em;
+	}
+
+	.middle {
+		display: block;
+		align-content: center;
+		padding: 25%;
+	}
+
+	.responsive {
+		width: 100%;
+		max-width: 1200px;
+		height: auto;
+	}
+
+	/*animation from sitepoint.com, altered to fit my needs*/
+
+	.container{
+	  display: inline-block;
+	  margin: auto;
+	}
+	.typed-out{
+	  overflow: hidden;
+	  white-space: nowrap;
+	  animation: typing 1s forwards;
+	  font-size: 1.6rem;
+	  width: 0;
+	  text-align: center;
+	}
+	@keyframes typing {
+	  from { width: 0 }
+	  to { width: 100% }
+	}
+
+
+
+	/*Desktop*/
+				@media (min-width: 1341px) {
+
+
+				#name {
+					font-size: .5em;
+					letter-spacing: 1.5px;
+					margin-bottom: .15em;
+				}
+
+				#imlylah {
+					text-align: center;
+					color: #F4E3C5;
+				}
+
+
+				p { 
+					font-size: .8em;
+				}
+				#name:link {
+					font-size: 1em;
+					font-style: bold;
+					letter-spacing: 1.5px;
+					text-decoration: none;
+					color: #183a37;
+					font-style: normal;
+					
+					
+				}
+
+				#name:visited {
+					font-size: 1em;
+					font-style: bold;
+					letter-spacing: 1.5px;
+					text-decoration: none;
+					color: #183a37;
+					font-style: normal;
+				}
+
+
+				#topofpage {
+					display: flex;
+					justify-content: space-between;
+					margin-top: 1%;
+					margin-left: 2em;
+					background-color: #FEFCF9
+				}
+
+				.navlink {
+					padding-right:.5em;
+					padding-left: .5em;
+					font-variant: small-caps;
+					text-decoration: none;
+					font-size: 0.7em;
+					font-style: bold;
+					color: #183a37;
+					background-color #F4E3C5;
+
+
+				}
+
+				.navlink:hover {
+					background-color: #DDB192;
+					
+					padding-top: 10px;
+					padding-bottom: 16px;
+					padding-left: 16px;
+					padding-right: 16px;
+				}
+
+				#nav {
+					margin: auto;
+					margin-right: 2em;
+					font-style: normal;
+					text-decoration: none;
+				}
+
+				#mobilenav {
+					display: none;
+				}
+
+
+				#abtmeandpic {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					margin-top: 1%;
+					margin-left: 10%;
+					margin-right: 10%;
+					color: #F4E35C;
+					padding: 0.5em;
+					background-color: #7D8570;
+					border-style: solid;
+					border-color: #DDE392;
+					max-width:80%;
+					
+					
+					
+				}
+				#mainpic {
+					border: solid;
+					border-color: #F4E3C5;
+				}
+
+
+				#mainaboutme { 
+					display: flex;
+					flex-wrap: wrap;
+					flex-direction: column;
+					justify-content: flex-start;
+					align-items: flex-start;
+					padding-top: 5%;
+					padding-bottom: 5%;
+					padding-left: 5%;
+					padding-right: 2.5%;
+					max-width: 40%;
+					min-width: 30%;
+					
+					
+					
+					
+					
+					
+				}
+
+				#leftabtme {
+				margin: auto;
+				}
+
+
+				h2 {
+					margin-top: 0;
+					margin-bottom: 0;
+					color: #04151f
+					
+				}
+
+
+				#p-mainaboutme {
+					font-size: .75em;
+					margin-top: 0.25em;
+					color: #F4E3C5;
+					margin-left: auto;
+					margin-right: auto;
+				}
+
+
+				#rightabtme {
+					margin-right: auto;
+					margin-left: auto;
+					
+				}
+
+				.linkbuttons {
+					display: flex;
+					justify-content: front-start;
+				}
+
+				.button {
+					
+					text-decoration: none;
+					font-size: 0.7em;
+					font-weight: bolder;
+					color: #183a37;
+					background-color: #F4E3C5;
+					border-style: double;
+					border-width: 10px;
+					border-color: #F4E3C5;
+					padding-top: 10px;
+					padding-bottom: 16px;
+					padding-left: 16px;
+					padding-right: 16px;
+					margin-left: 40px;
+					margin-right: 40px;
+				}
+					
+
+					/* about me section*/
+					
+					
+					
+					h2 {
+					font-size: 1rem;
+					letter-spacing: 1px;
+					font-variant: small-caps;
+					margin: auto;
+				}
+
+				h3 {
+					font-size: .55rem;
+					margin: auto;
+					text-align: center;
+					
+					
+				}
+
+				h4 { 
+				font-size: .5rem;
+				font-variant: small-caps;
+				text-align: center;
+				margin: auto;
+				padding: .25em;
+				}
+					
+				#aboutmepage {
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					align-items: center;
+					margin-top: 1em;
+					margin-left: 20%;
+					margin-right: 20%;
+				}
+				#aboutheader {
+					margin: auto;
+					padding: 5%;
+					font-size: 2em;
+				}
+				h3 {
+					display: block;
+					font-variant: small-caps;
+					margin-top: .1em;
+					margin-bottom: .5em;
+					text-align: center;
+					
+					
+				}
+
+				#mesailing {
+					  object-fit: contain;
+						height: 100%;
+						width: 100%;
+						padding: 0em;
+						margin: auto;
+						overflow: hidden;
+				}
+
+				figcaption {
+					font-size: 0.7em;
+					font-weight: normal;
+					font-style: italic;
+					color: #7D8570;
+				}
+
+				.pgraph {
+					display: block;
+					padding-top: 0.5em;
+					padding-bottom: 0.5em;
+					margin-top: 0;
+					margin-bottom: 0;
+				}
+
+				}
+
+
+/*TABLET*/			
+									@media (max-width: 1340px) {
+
+									body { font-size: 30px;
+									}
+
+									img {
+										text-align: center;
+										margin:auto;
+										max-width: 450px;
+									}
+
+									.center {
+										margin-bottom: 0px;
+									}
+
+									#topofpage {
+										display:flex;
+										flex-direction: column;
+										margin: 1%;
+										justify-content: center;
+									}
+
+									header {
+										font-size: 0.7em;
+									}
+
+
+
+									#name {
+										font-size: 1em;
+										font-style: bold;
+										letter-spacing: 1.5px;
+										text-align: left;
+										
+									}
+									#name:link {
+										font-size: 1em;
+										font-style: bold;
+										letter-spacing: 1.5px;
+										text-decoration: none;
+										color: #183a37;
+										font-style: normal;
+										
+									}
+
+									#name:visited {
+										font-size: 1em;
+										font-style: bold;
+										letter-spacing: 1.5px;
+										text-decoration: none;
+										color: #183a37;
+										font-style: normal;
+									}
+
+
+									#nav { 
+										display: flex;
+										justify-content: space-around;
+										background-color: #F4E3C5;
+										padding: 2%;
+										border-radius: 1px;
+										font-style: normal;
+										text-decoration: none;
+										position: sticky;
+																			
+										
+									}
+
+									#mobilenav {
+										display: none;
+									}
+
+									.navlink {
+									font-variant: small-caps;
+									text-decoration: none;
+									font-size:1em;
+									font-style: bold;
+									color: #183a37;
+									background-color #FCF7EE;
+																			
+									}
+
+									.navlink:hover {
+									background-color: #DDB192;
+
+																			
+									}
+
+									#abtmeandpic {
+										display: flex;
+										margin: 1%;
+										flex-direction: column-reverse;
+										background-color: 7D8570;
+										border-style: solid;
+										border-color: 7D8570;
+										border-radius: 10px;
+										margin-bottom: 25%;
+									}
+
+									#mainaboutme {
+										margin: .5%;
+										margin-top: 0em;
+										text-align: center;
+										
+									}
+
+									#imlylah {
+										text-align: center;
+										margin-bottom: 0%;
+										margin-top: 0%;
+										
+									}
+
+									#p-mainaboutme {
+										text-align: center;
+										margin-right: auto;
+										margin-left: auto;
+									}
+
+
+
+									.center {
+									text-align: center;
+									border-radius: 50%;
+
+									}
+
+										
+									#headshot {
+										display: flex;
+										margin: auto;
+										padding: 1%;
+										max-width:90%;
+										position: relative;
+										order: 1;
+										
+									}
+
+
+
+									.linkbuttons {
+										display: flex;
+										justify-content: center;
+									}
+
+									.button {
+																			
+										text-decoration: none;
+										font-size: 1em;
+										font-weight: bolder;
+										color: #183a37;
+										background-color: #DDB192;
+										border-style: double;
+										border-width: 10px;
+										border-color: #DDB192;
+										border-radius: 5%;
+										padding-top: 1%;
+										padding-bottom: 1%;
+										padding-left: 1%;
+										padding-right: 1.5%;
+										margin-left: 4%;
+										margin-right: 4%;
+									}
+																			
+									}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						/*MOBILE*/
+						@media (max-width: 600px) {
+															html, body {
+																overflow-x: hidden;
+															}
+															body {
+																position: relative;
+															}
+															*{
+																max-width: auto;
+															}
+															
+															#listcontainer {
+																margin-bottom: 25%
+															}
+
+															#topofpage {
+																display: flex;
+																justify-content: center;
+																flex-wrap: column;
+																margin-top: .5em%;
+																background-color: #FEFCF9
+
+																
+															}
+															
+															
+															header {
+																font-size: .5em;
+																margin-top: 0px;
+															}
+															
+															.namesubhead {
+															display: none;
+														}
+														
+															#name {
+																font-size: .5em;
+															}
+															
+															
+															.navlink {
+																text-decoration: none;
+																font-style: bold;
+																color: #F4E3C5;
+																padding: 4px;
+																font-size: .75em;
+																
+																
+																
+															
+																
+															}
+															
+															.center {
+																padding: .25em;
+																padding-bottom: 0rem;
+															
+															}
+															
+													
+															
+															h4 {
+																text-wrap: wrap;
+															}
+															
+															.navlink:hover {
+																display: none;
+																
+																
+															}
+															
+															#nav {
+																display: none;
+															}
+															
+															.stack {
+																display: flex;
+																flex-direction: column;
+																text-align: left;
+															}
+															
+															
+															#mobilenav {
+																text-align: center;
+																display: flex;
+																justify-content:space-around;
+																font-size: 1em;
+																font-style: normal;
+																text-decoration: none;
+																background-color: #7D8570;
+																padding-left: 20px;
+																padding-right: 20px;
+																
+																
+
+																
+															}
+															
+															#p-mainaboutme {
+																text-align: center;
+																margin: 0.01em;
+																color: #7D8570; 
+															}
+
+															#abtmeandpic {
+																display: flex;
+																justify-content: center;
+																color: #F4E35C;
+																margin-left: 0.1em;
+																margin-right: 0.1em;
+																margin-bottom: 25%;
+																margin-top: 0.1em;
+																background-color: #F4E3C5;
+																border-style: solid;
+																border-color: #F4E3C5;
+																max-width: 100%;
+																
+																
+																
+																
+															}
+															
+															#imlylah {
+																font-size: .5em;
+																margin: auto;
+																color: #04151f
+															}
+						#rightabtme {
+							padding: 0px;
+						}
+															#mainaboutme { 
+																display: flex;
+																font-size: 1em;
+																flex-direction: column;
+																font-size: 0.75em;
+																text-align: center;
+																margin-left: 0.75em;
+																margin-right: 0.75em;
+																
+																
+																
+															}
+
+															h2 {
+																margin-top: 0;
+																margin-bottom: 0;
+																color: #04151f
+																
+															}
+
+
+															#p-mainaboutme {
+																margin-top: 0.25em;
+																color: #04151f;
+															}
+
+															#headshot {
+																display: none;
+																align-content: center;
+																
+																
+															}
+
+															.linkbuttons {
+																display: flex;
+																justify-content: front-start;
+																padding: 0.5rem;
+															}
+
+															.button {
+																
+																text-decoration: none;
+																font-size: 0.7em;
+																font-weight: bolder;
+																color: #183a37;
+																background-color: #DDB192;
+																border-style: double;
+																border-width: 10px;
+																border-color: #DDB192;
+																
+															}
+															
+															footer {
+																font-size: 1em;
+															}
+																
+															.bigtitle {
+																text-wrap: wrap;
+																font-size: .5em;
+																max-width: 90%;
+															}
+														
+														#profpic {
+															border-color: #7D8570;
+														}
+									
+									
+									

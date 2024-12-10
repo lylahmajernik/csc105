@@ -1,0 +1,95 @@
+
+/*Button source: https://getcssscan.com/css-buttons-examples*/
+/*Edited to fit my needs*/
+
+/* CSS */
+.button-53 {
+  background-color: #7D8570;
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: #F4E3C5;
+  display: flex;
+  font-family: Playfair Display;
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  margin: auto;
+}
+
+.button-53:focus {
+  outline: 0;
+}
+
+.button-53:after {
+  content: '';
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.button-53:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-53 {
+    padding: .75rem 3rem;
+    font-size: 1rem;
+  }
+}
+  
+  @media (max-width: 420px) {
+  .button-53 {
+    padding: .2rem 2rem;
+    font-size: .6rem;
+	width: 80%;
+	margin: auto;
+  }
+}
+
+
+
+
+
+
+.abthidden {
+	display: none;
+}
+
+figcaption {
+	font-variant: small-caps;
+	font-size: 0.75em;
+	color: 7D8570;
+	background-color: #F4E3C5;
+	margin: auto;
+	border-style: solid;
+	border: 0 solid #E5E7EB;
+}
+
+figure {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+
+
+
